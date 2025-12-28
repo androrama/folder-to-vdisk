@@ -12,7 +12,6 @@
 
 .NOTES
     Requires Administrator privileges (will automatically request elevation).
-    Author: Antigravity Agent
 #>
 
 # --- Initial Configuration ---
@@ -163,3 +162,4 @@ if ($CanConvertToVDI) {
 
 Write-Host "Press any key to exit..."
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
