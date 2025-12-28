@@ -12,7 +12,6 @@
 
 .NOTES
     Requiere ejecutar como Administrador (solicitará permisos automáticamente).
-    Autor: Antigravity Agent
 #>
 
 # --- Configuración Inicial ---
@@ -163,3 +162,4 @@ if ($CanConvertToVDI) {
 
 Write-Host "Presiona cualquier tecla para salir..."
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
